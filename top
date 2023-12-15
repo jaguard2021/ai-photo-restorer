@@ -1,0 +1,63 @@
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex befb5c4..a8cff6d 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -1355,9 +1355,9 @@[m
+       }[m
+     },[m
+     "node_modules/caniuse-lite": {[m
+[31m-      "version": "1.0.30001442",[m
+[31m-      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001442.tgz",[m
+[31m-      "integrity": "sha512-239m03Pqy0hwxYPYR5JwOIxRJfLTWtle9FV8zosfV5pHg+/51uD4nxcUlM8+mWWGfwKtt8lJNHnD3cWw9VZ6ow==",[m
+[32m+[m[32m      "version": "1.0.30001570",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001570.tgz",[m
+[32m+[m[32m      "integrity": "sha512-+3e0ASu4sw1SWaoCtvPeyXp+5PsjigkSt8OXZbF9StH5pQWbxEjLAZE3n8Aup5udop1uRiKA7a4utUk/uoSpUw==",[m
+       "funding": [[m
+         {[m
+           "type": "opencollective",[m
+[36m@@ -1366,6 +1366,10 @@[m
+         {[m
+           "type": "tidelift",[m
+           "url": "https://tidelift.com/funding/github/npm/caniuse-lite"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "github",[m
+[32m+[m[32m          "url": "https://github.com/sponsors/ai"[m
+         }[m
+       ][m
+     },[m
+[36m@@ -4485,9 +4489,9 @@[m
+       "integrity": "sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ=="[m
+     },[m
+     "caniuse-lite": {[m
+[31m-      "version": "1.0.30001442",[m
+[31m-      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001442.tgz",[m
+[31m-      "integrity": "sha512-239m03Pqy0hwxYPYR5JwOIxRJfLTWtle9FV8zosfV5pHg+/51uD4nxcUlM8+mWWGfwKtt8lJNHnD3cWw9VZ6ow=="[m
+[32m+[m[32m      "version": "1.0.30001570",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001570.tgz",[m
+[32m+[m[32m      "integrity": "sha512-+3e0ASu4sw1SWaoCtvPeyXp+5PsjigkSt8OXZbF9StH5pQWbxEjLAZE3n8Aup5udop1uRiKA7a4utUk/uoSpUw=="[m
+     },[m
+     "caseless": {[m
+       "version": "0.12.0",[m
+[1mdiff --git a/pages/index.tsx b/pages/index.tsx[m
+[1mindex 81bf616..fdbcbc1 100644[m
+[1m--- a/pages/index.tsx[m
+[1m+++ b/pages/index.tsx[m
+[36m@@ -64,7 +64,7 @@[m [mconst Home: NextPage = () => {[m
+                 <h2 className="mb-1 font-medium text-lg">Original Photo</h2>[m
+                 <Image[m
+                   alt="Original photo of my bro"[m
+[31m-                  src="/michael.jpg"[m
+[32m+[m[32m                  src="/1.jpg"[m
+                   className="w-96 h-96 rounded-2xl"[m
+                   width={400}[m
+                   height={400}[m
+[36m@@ -76,7 +76,7 @@[m [mconst Home: NextPage = () => {[m
+                   alt="Restored photo of my bro"[m
+                   width={400}[m
+                   height={400}[m
+[31m-                  src="/michael-new.jpg"[m
+[32m+[m[32m                  src="/2.jpg"[m
+                   className="w-96 h-96 rounded-2xl sm:mt-0 mt-2"[m
+                 />[m
+               </div>[m
